@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: boardshack
+spec:
+  containers:
+  - name: todo-app
+    image: eddy26/boardshack:latest
+    ports:
+    - containerPort: 8000
