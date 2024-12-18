@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: boardgame
 spec:
-  type: loadbalancer
+  type: LoadBalancer
   ports:
     - name: http
       port: 80
